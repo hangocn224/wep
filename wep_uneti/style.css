@@ -1,0 +1,180 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("img/anh1.png");
+	background-repeat: repeat;
+}
+.banner{
+	width: 960px;
+	height: 102px;
+	margin:auto;
+	background-image: url("img/anh.png");
+	background-size: 960px 102px;
+	background-repeat: no-repeat;
+}
+.menu{
+	width: 960px;
+	height: 30px;
+	margin:auto;
+	background-color: #0098db;
+	border-radius: 5px;
+	margin-top: 5px;
+	line-height: 30px;
+}
+
+.menu ul li{
+	list-style: none;
+	border-right:1px solid white;
+	padding-left: 10px;
+	float: left;
+	position: relative;
+	
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 14px;
+
+}
+.dacap{
+	border: 1px solid #0098db;
+	background-color: #0066ff;
+	position: absolute;
+	z-index: 90;
+	margin-left: 0px;
+	border-right-style: none;
+	width: 215px;
+	display: none;
+
+}
+.dacap li{
+	width: 200px;
+	border-right: none;
+}
+.menu li:hover{
+	background-color: orange;
+
+}
+.menu li:hover .dacap{
+	display: block;
+}
+.wapper{
+	width: 960px;
+	height: 1000px;	
+	margin: auto;
+	margin-top: 5px;
+}
+.left{
+	width: 740px;
+	height: 1608px;
+	float: left;
+	background-color: white;
+
+}
+.left1{
+	width: 740px;
+	height: 1300px;
+	border-radius: 3px;
+	border:1px solid #0098db;
+
+}
+.noidung{
+	width: 720px;
+	margin:auto;
+	border-bottom: 1px dotted gray;
+	margin-top: 25px;
+
+}
+.noidung p a{
+	text-decoration: none;
+	color: #0098db;
+}
+.xemthem{
+	float: right;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+.xemthem a{
+	text-decoration: none;
+	color: #0098db;
+}
+
+
+.left2{
+	width: 740px;
+	height: 300px;
+	margin-top: 8px;
+	border-radius: 3px;
+	border:1px solid #0098db;
+
+}
+.right{
+	width: 213px; 
+	height: 1608px;
+	float: right;
+	background-color: white;
+
+}
+.right1{
+	width: 213px;
+	height: 250px;
+	border-radius: 3px;
+	border:1px solid #0098db;
+	margin-bottom: 8px;
+
+}
+.right2{
+	width: 213px;
+	height: 50px;
+	border-radius: 3px;
+	border:1px solid #0098db;
+	margin-bottom: 8px;
+
+}
+.right3{
+	width: 213px;
+	height: 100px;
+	border-radius: 3px;
+	border:1px solid #0098db;
+	margin-bottom: 8px;
+
+}
+.lienket{
+	width: 95%;
+	border-bottom: 1px dotted gray;
+	margin-top: 10px;
+	margin-left: 4px;
+}
+.lienket a{
+	text-decoration: none;
+	color: #0098db;
+	font-size: 13px;
+
+}
+.right4{
+	width: 213px;
+	height: 150px;
+	border-radius: 3px;
+	border:1px solid #0098db;
+	margin-bottom: 8px;
+
+}
+/******/
+form{
+	width:80%;
+	margin:auto;
+	margin-top:10px;
+}
+.bottom{
+	
+	width: 960px;
+	margin:auto;
+	height: 200px;
+	background-color: #0098db;
+	margin-top: 30px;
+	text-align: center;
+}
